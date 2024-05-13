@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+  background-image:linear-gradient(to right, #BFBFBF, #aa9a9ab9);
+}
+
+#main {
+  max-width: 1200px;
+  min-width: 320px;
+  margin: auto;
+  
+}
+
+#title {
+  color:#F7F7F7;
+  text-align:center;
+  text-shadow:2px 2px 2px black; 
+  margin-top: 5px; 
+  font-size:3.5em;
+  margin-bottom:-2px;
+}
+
+#subtitle {
+  margin-top: 3px;
+  opacity: 0;
+  animation: fade-in 7s normal forwards ease-in-out;
+  animation-play-state: running; 
+}
+#sub-info {
+  font-size: 1.9em;
+}
+h3 {
+  font-family: sans-serif;
+  font-size:1.8em; 
+  color:#F7F7F7;
+  text-align:center;
+  text-shadow:2px 2px 2px black;  
+}
+h4 {
+  font-size: 1em;
+  font-family: sans-serif;
+  color:#000000;
+  text-align:center;
+  margin-bottom: -25px;
+}
+#img-div {
+  text-align:center;
+  color:#000000; 
+  font-size: 1.2em;
+  
+  padding-bottom:-5px;
+}
+#image {
+  display:block;
+  margin:auto;
+  width: 100%; 
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479);
+  border-radius:5px;   
+}
+
+
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
+#image, figcaption {
+  opacity: 0;
+  animation: fade-in 7s normal forwards ease-in-out;
+  animation-play-state: running; 
+}
+
+
+figcaption {
+  margin-top: -12px;
+  font-size: .8em;
+}
+
+
+h2 {
+  text-align:center;
+  color:#F7F7F7;
+  text-shadow:2px 2px 2px black;
+  font-size:2.0em;
+  padding-bottom:2px;
+  
+
+}
+#tribute-info {
+  display:block;
+  margin: auto;
+  width: 94%;
+ 
+}
+
+ul {
+  background-color:#F7F7F7;
+  padding-top: 15px;
+  border-radius:5px;
+  padding-bottom:25px;
+  padding-right: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
+  
+
+}
+li {
+  font-family: sans-serif;
+  padding: 2px 15px 7px 0px ;
+  font-weight: normal;
+  text-align:justify;  
+  font-size: .93em;
+}
+#name {
+  font-family: sans-serif;
+  font-size:1.5em; 
+  color:#F7F7F7;
+  text-align:center;
+  text-shadow:2px 2px 2px black; 
+}
+a {
+  color:#ffffff;
+  text-decoration: none;
+  margin-left: 2px;
+  text-shadow:2px 2px 2px black;
+
+}
+a:hover {
+  background-color: #2c2a2a;
+  text-decoration: underline;
+  padding:3px;
+  font-size: 1.2em;
+  transition-duration: .7s;
+  border-radius: 2px;  
+}
+
+
+
